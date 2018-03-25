@@ -1,14 +1,14 @@
 <template>
   <div id="app">
    <h1>Welcome to App!</h1>
-    <skills skill="This is my skill!"/>
-    <djs_component/>
-  </div>
+   <!-- <skills skill="This is my skill!"/> -->
+   <djsComponent/>
+ </div>
 </template>
 
 <script>
-import skills from './components/skills.vue'
-
+import skills from './components/skills.vue';
+import djsComponent from './components/djsComponent.vue';
 
 export default {
   name: 'app',
@@ -16,6 +16,7 @@ export default {
     skills
   }
 }
+
 </script>
 
 <style>

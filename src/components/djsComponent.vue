@@ -1,16 +1,14 @@
 <template>
   <div>
-    <h2>Hello from skills component!</h2>
-   <h3>{{ skill }}</h3>
+   <h2>Hello from DJS component!</h2>
+  
  </div>
 </template>
 
 <script>
 export default {
-  name: 'skills',
-  props: {
-    skill: String
-  }
+  name: 'djsComponent'
+    }
 }
 </script>
 
