@@ -1,19 +1,20 @@
 <template>
   <div id="app">
-   <h1>Welcome to App!</h1>
+   <h1>Welcome to AppyApp!</h1>
     <skills skill="This is my skill!"/>
-    <djs_component/>
+    <DansComponent/>
   </div>
 </template>
 
 <script>
-import skills from './components/skills.vue'
-
+import skills from './components/skills.vue';
+ import djs from './components/djs_component.vue'; 
 
 export default {
   name: 'app',
   components: {
-    skills
+    skills,
+    'DansComponent':djs
   }
 }
 </script>

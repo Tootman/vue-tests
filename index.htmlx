@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ name }}</title>
+  </head>
+  <body>
+  	Hello from ind
+    <div id="app"></div>
+    in app
+    <script src="/src/main.jsx"></script>
+  </body>
+</html>
